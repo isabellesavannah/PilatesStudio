@@ -1,0 +1,22 @@
+@page
+@model PilatesStudio.Pages.ClassScheduleModel
+
+<h1>Available Classes</h1>
+
+@if (!Model.Classes.Any())
+{
+    <p>No classes yet.</p>
+}
+else
+{
+    <ul>
+        @foreach (var c in Model.Classes)
+        {
+            <li>
+                <strong>@c.Name</strong> —
+                @c.StartTime.ToString("g")
+                (Capacity: @c.Capacity)
+            </li>
+        }
+    </ul>
+}
