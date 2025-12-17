@@ -17,8 +17,8 @@ public class SendGridEmailSender : IEmailSender
     public async Task SendEmailAsync(string email, string subject, string htmlMessage)
     {
         var apiKey = _configuration["SendGrid:ApiKey"];
-        var fromEmail = _configuration["SendGrid:FromEmail"];
-        var fromName = _configuration["SendGrid:FromName"];
+        var fromEmail = "isabellet.208@gmail.com";
+        var fromName = "Pilates Studio";
 
         var client = new SendGridClient(apiKey);
 
