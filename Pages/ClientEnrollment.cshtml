@@ -1,0 +1,43 @@
+@page
+@model PilatesStudio.Pages.ClientEnrollmentModel
+@{
+    ViewData["Title"] = "Client Enrollment";
+}
+
+<h1>Client Enrollment</h1>
+
+<form method="post">
+    <div class="form-floating mb-3">
+        <input asp-for="ClientForm.FirstName" class="form-control" />
+        <label asp-for="ClientForm.FirstName"></label>
+        <span asp-validation-for="ClientForm.FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input asp-for="ClientForm.LastName" class="form-control" />
+        <label asp-for="ClientForm.LastName"></label>
+        <span asp-validation-for="ClientForm.LastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input asp-for="ClientForm.Email" class="form-control" readonly />
+        <label asp-for="ClientForm.Email"></label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input asp-for="ClientForm.PhoneNumber" class="form-control" />
+        <label asp-for="ClientForm.PhoneNumber"></label>
+    </div>
+
+    <div class="form-floating mb-3">
+        <input asp-for="ClientForm.DateOfBirth" type="date" class="form-control" />
+        <label asp-for="ClientForm.DateOfBirth"></label>
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="ClientForm.FoundersMembership" class="form-check-input" />
+        <label asp-for="ClientForm.FoundersMembership" class="form-check-label"></label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

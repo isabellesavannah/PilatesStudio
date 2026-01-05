@@ -18,12 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/isabellethomas/Desktop/source/personal/PilatesStudio
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/ClassSchedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xhc3NTY2hlZHVsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/ClientEnrollment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xpZW50RW5yb2xsbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/Error.cshtml]
