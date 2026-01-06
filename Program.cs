@@ -5,35 +5,62 @@ using PilatesStudio.Models;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using PilatesStudio.Services;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
+// ---------------------------
+// Configure Services
+// ---------------------------
+
+// SQL Server connection
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
                        ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString)); // <-- CHANGE HERE
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+    options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
+// Identity
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+{
+    options.SignIn.RequireConfirmedAccount = false;
+})
+.AddEntityFrameworkStores<ApplicationDbContext>();
+
+// Razor Pages with runtime compilation (helps with UI changes)
 builder.Services.AddRazorPages();
 
+// Email service (SendGrid)
 builder.Services.AddTransient<IEmailSender, SendGridEmailSender>();
+
+// Developer exception page / DB exceptions
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// ---------------------------
+// Configure Middleware Pipeline
+// ---------------------------
+
 if (app.Environment.IsDevelopment())
 {
-    app.UseMigrationsEndPoint();
     app.UseDeveloperExceptionPage();
+    app.UseMigrationsEndPoint();
 }
 else
 {
     app.UseExceptionHandler("/Error");
     app.UseHsts();
 }
+
+// Important middleware order
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapRazorPages();
+
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
@@ -53,15 +80,5 @@ using (var scope = app.Services.CreateScope())
         db.SaveChanges();
     }
 }
-
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapRazorPages();
 
 app.Run();
