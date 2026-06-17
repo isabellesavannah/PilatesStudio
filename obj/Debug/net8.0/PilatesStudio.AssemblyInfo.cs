@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PilatesStudio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40ecc387cc21e14ea9e48c5b227d4b66d5380e80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4a8040281cf112c572486ca8c7a60f966119f3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PilatesStudio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PilatesStudio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
