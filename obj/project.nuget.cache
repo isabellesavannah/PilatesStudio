@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QTQe2+IAofk=",
+  "dgSpecHash": "2Poi19hjmfI=",
   "success": true,
-  "projectFilePath": "/Users/isabellethomas/Desktop/source/personal/PilatesStudio/PilatesStudio.csproj",
+  "projectFilePath": "/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/PilatesStudio.csproj",
   "expectedPackageFiles": [
     "/Users/isabellethomas/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/isabellethomas/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

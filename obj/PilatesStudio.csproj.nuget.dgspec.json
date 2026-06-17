@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/isabellethomas/Desktop/source/personal/PilatesStudio/PilatesStudio.csproj": {}
+    "/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/PilatesStudio.csproj": {}
   },
   "projects": {
-    "/Users/isabellethomas/Desktop/source/personal/PilatesStudio/PilatesStudio.csproj": {
+    "/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/PilatesStudio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/isabellethomas/Desktop/source/personal/PilatesStudio/PilatesStudio.csproj",
+        "projectUniqueName": "/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/PilatesStudio.csproj",
         "projectName": "PilatesStudio",
-        "projectPath": "/Users/isabellethomas/Desktop/source/personal/PilatesStudio/PilatesStudio.csproj",
+        "projectPath": "/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/PilatesStudio.csproj",
         "packagesPath": "/Users/isabellethomas/.nuget/packages/",
-        "outputPath": "/Users/isabellethomas/Desktop/source/personal/PilatesStudio/obj/",
+        "outputPath": "/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/isabellethomas/.nuget/NuGet/NuGet.Config"

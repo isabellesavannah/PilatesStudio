@@ -9,55 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PilatesStudio
 build_property.RootNamespace = PilatesStudio
-build_property.ProjectDir = /Users/isabellethomas/Desktop/source/personal/PilatesStudio/
+build_property.ProjectDir = /Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/isabellethomas/Desktop/source/personal/PilatesStudio
+build_property.MSBuildProjectDirectory = /Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/ClassSchedule.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/ClassSchedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xhc3NTY2hlZHVsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/ClientEnrollment.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/ClientEnrollment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xpZW50RW5yb2xsbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/Error.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/Index.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/Privacy.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/Shared/_LoginPartial.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/_ViewImports.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/_ViewStart.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/isabellethomas/Desktop/source/personal/PilatesStudio/Pages/Shared/_Layout.cshtml]
+[/Users/isabellethomas/Desktop/source/personal/infin8-pilates-bar/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lvujocqw5q
